@@ -1,0 +1,22 @@
+"Algoritimos" como escovar os dentes
+
+	variaveis escova de dentes, creme dental, dentes, água, lingua, toalha 
+	
+	Pegar("a escova")
+	
+	aplicar("o creme dental")
+	
+	Escovar ("os dentes em com movimentos circulares por dois minutos")
+	
+	Escovar ("a interna superfície da mastigaçã")
+	
+	Escovar ("a lingua suavemente")
+	
+	Enxaguar ("a boca com agua")
+	
+	Guardar ("a escova")
+	
+	Limpar ("a pia.)
+	
+	
+	fim

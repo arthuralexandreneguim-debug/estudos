@@ -1,0 +1,22 @@
+algoritimo "ir a aula"
+	
+	
+	variaveis acordar, despertador, escovar os dentes, material, café, ir ate o ponto, chegar na sala, prestar atenção.
+	
+	
+	acordar("desçigar o despertador") 
+	
+	escovar("os dentes se arrumar ")
+	
+	conferir("o material nessesario")(livros e cadernos)
+	
+	tomar("cafe da manhã ")
+	
+	ir(" ate o ponto de ônibus e pegar o transporte ate escola")
+	
+	chegar("atempo na escola")
+	
+	prestar atenção ("e participar na aula")]
+	
+	
+	fim 
