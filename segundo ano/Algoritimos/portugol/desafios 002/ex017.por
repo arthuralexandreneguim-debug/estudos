@@ -1,9 +1,10 @@
 programa {
+   funcao inicio() {
 real valor, velocidade, multa 
 
-  funcao inicio() {
+ 
 //entrada 
-    escreva("Qual a foi a velocidade que seu carro passou na avenida hoje mais cedo?")
+    escreva("Qual foi a velocidade que seu carro passou na avenida hoje mais cedo?")
     leia(velocidade)
 
 
@@ -14,10 +15,10 @@ se (velocidade>80) {
     //você pagará 5R$ a cada km acima do limite 
 
 valor=(velocidade-80)*5
-
+escreva("sua multa e de ", valor)
 } senao {
     //ta tranquilo
-    escreva("o valor da ,ulta que você terá que pagar é de ", valor)
+    escreva("o valor da multa que você terá que pagar nada")
 
 
 
