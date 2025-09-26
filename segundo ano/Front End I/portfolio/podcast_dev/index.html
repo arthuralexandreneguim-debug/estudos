@@ -4,81 +4,191 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dev Viajante — Episódio Piloto</title>
-
-
   <link rel="icon" href="Gemini_Generated_Image_p90hx4p90hx4p90h.png" type="image/x-icon">
+
+  <style>
+    body {
+      background-color: rgba(7, 125, 194, 0.575);
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      transition: background 0.6s ease;
+    }
+
+    nav {
+      background-color: rgba(0,0,0,0.4);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+
+    nav a:hover {
+      transform: scale(1.1);
+      color: #ffe600;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 2.4em;
+      animation: fadeIn 1s ease;
+    }
+
+    section {
+      margin: 40px auto;
+      max-width: 800px;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #ffe600;
+    }
+
+    picture img {
+      margin-top: 20px;
+      max-width: 90%;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    picture img:hover {
+      transform: scale(1.03);
+    }
+
+    iframe {
+      margin-top: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    iframe:hover {
+      transform: scale(1.02);
+    }
+
+    /* Botão de download */
+    .btn-download {
+      display: inline-block;
+      background: #ffe600;
+      color: #000;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .btn-download:hover {
+      background: #ffb800;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin: 30px 0;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    /* Animações */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Botão de mudar fundo */
+    #changeBg {
+      margin-top: 20px;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      background: #fff;
+      color: #0070c9;
+      transition: background 0.3s;
+    }
+
+    #changeBg:hover {
+      background: #ffe600;
+      color: #000;
+    }
+  </style>
 </head>
 
-<body style="background-color: aqua;">
-
-
-    <a href="#sobre">Sobre o Episódio</a> |
-    <a href="#topicos">Tópicos Abordados</a> |
-    <a href="#bastidores">Bastidores</a> |
+<body>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#topicos">Tópicos</a>
+    <a href="#bastidores">Bastidores</a>
     <a href="#download">Media Kit</a>
- 
+  </nav>
 
- 
   <h1>Dev Viajante — Episódio Piloto</h1>
-  <p><strong>Convidado:[Arthur]</strong> — direto de <strong>[Jaguaraçu]</strong>.</p>
+  <p><strong>Convidado: [Arthur]</strong> — direto de <strong>[Jaguaraçu]</strong>.</p>
 
- 
   <picture>
     <source srcset="hero-portrait.jpg" media="(max-width:599px)">
-    <img src="Gemini_Generated_Image_p90hx4p90hx4p90h.png" alt="Capa do episódio: [NOME DO CONVIDADO] em [DESTINO]">
+    <img src="Gemini_Generated_Image_p90hx4p90hx4p90h.png" alt="Capa do episódio: [Arthur] em [Jaguaraçu]">
   </picture>
 
- 
   <section id="sobre">
     <h2>Sobre o Episódio</h2>
     <p>Neste episódio contamos a história do <strong>[Arthur]</strong>, que compartilha sua rotina como dev remoto enquanto explora <strong>[Jaguaraçu]</strong>.</p>
   </section>
 
- 
   <section id="topicos">
-
     <h2>Tópicos Abordados</h2>
-
     <ol>
       <li>Planejamento da logística de trabalho remoto em viagens.</li>
-      <li>
-        Ferramentas essenciais do convidado.
-    </li>
-      <li>
-        Gestão de clientes e fuso horário.
-    </li>
-      <li>
-        Segurança de dados e backups.
-      </li>
-      <li>
-      Dicas de conforto e produtividade.
-      </li>
+      <li>Ferramentas essenciais do convidado.</li>
+      <li>Gestão de clientes e fuso horário.</li>
+      <li>Segurança de dados e backups.</li>
+      <li>Dicas de conforto e produtividade.</li>
     </ol>
   </section>
 
- 
   <section id="bastidores">
     <h2>Bastidores</h2>
+    <p>Veja o making-of e trechos da viagem:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UmfRLJBbCoU?si=sPbM9IQ06A4iXnfU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </section>
 
-    <p>
-        Veja o making-of e trechos da viagem:
-
-    </p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UmfRLJBbCoU?si=sPbM9IQ06A4iXnfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  
-
-  
   <section id="download">
     <h2>Media Kit</h2>
-    <p><a href="mediakit.zip" download>Baixar Media Kit (ZIP)</a></p>
-  
+    <p><a href="portfolio_podcast_dev.pdf" download class="btn-download">📥 Baixar Media Kit</a></p>
+    <button id="changeBg">🎨 Mudar Fundo</button>
+  </section>
 
- 
-    <p>© <span id="year"></span> Dev Viajante — Todos os direitos reservados.</p>
- 
- 
-    
- 
+  <footer>
+    © <span id="year"></span> Dev Viajante — Todos os direitos reservados.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // mudar cor do fundo
+    const colors = ["#074b80", "#0c9a5f", "#6a0dad", "#b83232", "#ffaa00"];
+    document.getElementById("changeBg").addEventListener("click", () => {
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = randomColor;
+    });
+  </script>
 </body>
 </html>
+
+
